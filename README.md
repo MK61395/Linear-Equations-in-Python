@@ -33,3 +33,7 @@ However, as the matrix dimensions increased to 1000x1000 and beyond, the perform
 NumPy's linalg.solve method demonstrated better scalability with larger matrix dimensions compared to the inverse matrix method, while SciPy's linalg.solve_banded method showed promising results for banded matrices.
 It is important to note that I was unable to perform 100000x100000 due to time and hardware restraints. However, seeing the general trend of the graph, I can safely say that the SciPy method would be the fastest, while the naive method would be painstakingly slow, with NumPy falling somewhere between the two.
 
+This is what the output looks like:
+
+![Result](https://raw.githubusercontent.com/MK61395/Linear-Equations-in-Python/main/1.png)
+
